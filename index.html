@@ -6,13 +6,17 @@
     <body>
       <h3>HTML loaded</h3> 
       <script>alert("123")</script>
-        <script type="text/javascript" src="https://developer-dev-ed.develop.my.salesforce-com.kk3ytx3olbzh0sopahx9ngq1o.ab.crm.dev:6101/lightning/lightning.out.latest/index.iife.prod.js"></script>
+
       
-        <lightning-out-application 
-          frontdoor-url="https://developer-dev-ed.develop.my.salesforce-com.kk3ytx3olbzh0sopahx9ngq1o.ab.crm.dev:6101/secur/frontdoor.jsp?otp=00Dxx00TJz2TKYK%21AQEAQKXC4P.Y.jEDJct11TBw3TZ1HDGe0P4EF97GT1pnmuoGIZlN1hPvo6c5flfipvNMoIognYBPTgIaQ46nPWaWWDlySoPN&cshc=x000001X7vVx00TJz2TKYK" 
-          app-id="1Usxx0000004C92CAE" 
-          components="c-hello-world"> 
-        </lightning-out-application>
+<script src='https://orgfarm-1fc251cbbb.test1.my.pc-rnd.salesforce.com/omnistudio/embed.js'></script>
+<script type='text/javascript'>
+    const frontDoorUrl = 'https://orgfarm-1fc251cbbb.test1.my.pc-rnd.salesforce.com/secur/frontdoor.jsp?otp=00DSB00000vqqHp%21AQEAQImtr4StMBFMVCdR_prFoJlpj_bENniSGzMUxMgPC8TDeAePnmM.rKO1U8Idc4vvoaKYw237IyfdwAyi11Lm9dtVwItM&cshc=B00000ebE6bB00000vqqHp';
+    const appId = '1UsSB00000003kH0AQ';
+    const baseUrl = 'https://orgfarm-1fc251cbbb.test1.my.pc-rnd.salesforce.com';
+    initOmnistudio(baseUrl, appId, frontDoorUrl);
+</script>
+<omnistudio-omniscript type='Lightning' sub-type='Out' language='English'></omnistudio-omniscript>
+
       <c-hello-world></c-hello-world>
     </body>
 </html>
